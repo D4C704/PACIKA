@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ноель — кав'ярня</title>
+    <!-- Підключаємо гарний шрифт з Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap">
+    <!-- Підключаємо файл зі стилями. Без цього рядка сайт буде "голим"! -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== ШАПКА САЙТУ ===== -->
+    <header class="header">
+        <a href="#" class="logo"> ☕︎ Ноель.</a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#about">Про нашу кав'ярню</a></li>
+                <li><a href="#menu">Основне меню</a></li>
+                <li><a href="#contacts">Наші контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== ОСНОВНИЙ ВМІСТ ===== -->
+    <main>
+
+        <!-- HERO-блок: перший екран, який бачить гість -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-subtitle">Кав'ярня в центрі міста</p>
+                <h1>Кава без зайвого</h1>
+                <p class="hero-text">Тільки свіжообсмажене зерно, тиша і час для себеЦе місце для тих, хто шукає спокою. Приходьте з улюбленою книжкою, ноутбуком або просто наодинці зі своїми думками — тут ніхто нікуди не поспішає.</p>
+                <a href="#menu" class="btn">Переглянути меню</a>
+            </div>
+        </section>
+
+        <!-- Секція "Про нас" -->
+        <section class="about" id="about">
+            <div class="container about-inner">
+                <div class="about-text">
+                    <h2>Про нашу кав'ярню</h2>
+                    <p>«Ноель» — це камерний простір, де панує мінімалізм і щирість: світлі стіни, натуральне дерево та чесна кава. </p>
+                    <p>Ми самостійно обсмажуємо зерна щотижня, щоб кожна чашка розкривала свій ідеальний смак.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1769114474398-a7aef0625ef0?q=80&w=385&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Затишний інтер'єр кав'ярні" class="about-img">
+            </div>
+        </section>
+
+        <!-- Секція з картками меню -->
+        <section class="cards" id="menu">
+            <div class="container">
+                <h2>Меню</h2>
+                <p class="section-text">Шість напоїв, які ми готуємо найкраще. Наведи мишкою на картку!</p>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" alt="Чашка еспресо">
+                        <div class="card-body">
+                            <h3>Еспресо</h3>
+                            <p>Коротка й насичена, з карамельним присмаком.</p>
+                            <p class="price">50 ₴</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://kyivcityroast.com.ua/wp-content/uploads/2025/01/img_6890-750.webp" alt="Капучино з пінкою">
+                        <div class="card-body">
+                            <h3>Американо</h3>
+                            <p>Класичне еспресо, дбайливо розбавлене гарячою водою.</p>
+                            <p class="price">45 ₴</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Macchiato_FourBarrel.jpg" alt="Фільтр-кава">
+                        <div class="card-body">
+                            <h3>Латте макіато</h3>
+                            <p> Ніжний шаруватий напій, де міцне еспресо акуратно вливається в гаряче молоко.</p>
+                            <p class="price">55 ₴</p>
+                        </div>
+                    </div>
+                    
+                     <div class="card">
+                        <img src="https://coffee-tea.ru/upload/medialibrary/65f/65f3af3935600df139feafef6358f0e1.jpg" alt="Фільтр-кава">
+                        <div class="card-body">
+                            <h3>Раф</h3>
+                            <p>  Десертний кавовий напій, у якому еспресо, вершки (або молоко) та ванільний цукор збиваються парою разом в один однорідний мус.</p>
+                            <p class="price">75₴</p>
+                        </div>
+                    </div>
+                    
+                     <div class="card">
+                        <img src="https://leagueofcoffee.ru/assets/cache_image//home/k/koroch3o/leagueofcoffee.ru/public_html/2026-08-15-38_900x506_cf5.jpg" alt="Фільтр-кава">
+                        <div class="card-body">
+                            <h3>Мокачино</h3>
+                            <p> Солодкий кавовий напій, що поєднує еспресо, гаряче молоко та розтоплений шоколад або какао.</p>
+                            <p class="price">75 ₴</p>
+                        </div>
+                    </div>
+                    
+                     <div class="card">
+                        <img src="https://lafoy.ru/photo_l/foto-4225-3.jpg" alt="Фільтр-кава">
+                        <div class="card-body">
+                            <h3>Айс-латте</h3>
+                            <p> Ніжний шаруватий напій, де міцне еспресо акуратно вливається в гаряче молоко.</p>
+                            <p class="price">75 ₴</p>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Секція з контактами -->
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h2>Чекаємо на вас</h2>
+                <div class="contacts-list">
+                    <div class="contact-item">
+                        <h4>Адреса</h4>
+                        <p>вул. Івано-Франка, 398</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Години</h4>
+                        <p>понеділок-субота 8:00-21:00</p>
+                             <p>неділя виідний</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Телефон</h4>
+                        <p>+380 23 978 57 20</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-dark">Прокласти маршрут</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== ПІДВАЛ САЙТУ ===== -->
+    <footer class="footer">
+        <p>© 2026 Кав'ярня «Ноель». Зроблено з любов'ю до кави.</p>
+    </footer>
+
+</body>
+</html>
